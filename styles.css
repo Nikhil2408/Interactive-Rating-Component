@@ -32,7 +32,9 @@ body{
 }
 
 .main-container > h1{
+    text-shadow: 1.5px 1.5px var(--primary-color);
     color: white;
+    text-align: center;
 }
 
 .main-container .rating-component{
@@ -106,6 +108,7 @@ body{
 .footer{
     margin-top: 4rem;
     color: white;
+    text-align: center;
 }
 
 .selected{
