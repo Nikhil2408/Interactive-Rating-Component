@@ -25,9 +25,14 @@ body{
     border: 3px solid black;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--very-dark-blue);
+}
+
+.main-container > h1{
+    color: white;
 }
 
 .main-container .rating-component{
@@ -97,6 +102,11 @@ body{
     cursor: pointer;
 }
 
+
+.footer{
+    margin-top: 4rem;
+    color: white;
+}
 
 .selected{
     background-color: var(--primary-color) !important;
