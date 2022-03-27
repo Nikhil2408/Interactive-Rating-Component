@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root{
+    --medium-grey: hsl(216, 12%, 54%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --primary-color: hsl(25, 97%, 53%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    overflow: hidden;
+}
+
+
+.main-container{
+    border: 3px solid black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--very-dark-blue);
+}
+
+.main-container .rating-component{
+    height: fit-content;
+    margin: 2rem;
+    max-width: 500px;
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+}
+
+.rating-component > img{
+    margin: 1.2rem 1.2rem 0rem 1.2rem;
+}
+
+.rating-component > h2{
+    color: var(--white);
+    margin: 1.2rem 1.2rem 0rem 1.2rem;
+}
+
+.rating-component > p{
+    color: var(--light-grey);
+    margin: 1.2rem 1.2rem 0rem 1.2rem;
+}
+
+.rating-component > #rating > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 2rem 1.2rem;
+}
+
+.rating-component > #rating > ul > li > a{
+    text-decoration: none;
+    color: black;
+    background-color: var(--light-grey);
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+
+
+.rating-component > #rating > ul > li > a:hover{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+
+.rating-component > .btn{
+    display: inline-block;
+    text-decoration: none;
+    width: 90%;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 0.75rem;
+}
+
+
+.rating-component > .btn:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+.selected{
+    background-color: var(--primary-color) !important;
+    color: var(--white) !important;
+}

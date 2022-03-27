@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="thank-you.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="rating-component">
+      <img src="/images/icon-star.svg" alt="Icon-Star">
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div id="rating">
+        <ul>
+          <li><a class="number" href="#">1</a></li>
+          <li><a class="number" href="#">2</a></li>
+          <li><a class="number" href="#">3</a></li>
+          <li><a class="number" href="#">4</a></li>
+          <li><a class="number" href="#">5</a></li>
+        </ul>
+      </div>
+      <a class="btn" href = "#page-2">SUBMIT</a>
+    </div>
+  </div>
+
+  <div id="page-2" class="main-container">
+    <div class="rating-component tq-div">
+      <img src="/images/illustration-thank-you.svg" alt="Icon-Star">
+      <h2 id="tq-heading">Thank You!</h2>
+      <p id="tq-para">We appreciate you taking the time to give a rating. If you ever need more support dont hesitate to get in touch! </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

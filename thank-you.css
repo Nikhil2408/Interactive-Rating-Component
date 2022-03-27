@@ -1,0 +1,16 @@
+.main-container .tq-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tq-div > #tq-para{
+    margin-bottom: 0.75rem;
+}
+
+
+.displayRating{
+    text-shadow: 0.5px 0.5px rgb(20, 220, 80);
+}
