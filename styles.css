@@ -22,7 +22,6 @@ body{
 
 
 .main-container{
-    border: 3px solid black;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -33,46 +32,49 @@ body{
 
 .main-container > h1{
     text-shadow: 1.5px 1.5px var(--primary-color);
+    margin-top: 2rem;
     color: white;
     text-align: center;
 }
 
 .main-container .rating-component{
-    height: fit-content;
+    height: 60vh;
     margin: 2rem;
-    max-width: 500px;
+    max-width: 400px;
     background-color: var(--dark-blue);
     border-radius: 15px;
 }
 
 .rating-component > img{
     margin: 1.2rem 1.2rem 0rem 1.2rem;
+    padding: 0rem 0.5rem;
 }
 
 .rating-component > h2{
     color: var(--white);
+    padding: 0rem 0.5rem;
     margin: 1.2rem 1.2rem 0rem 1.2rem;
 }
 
 .rating-component > p{
     color: var(--light-grey);
     margin: 1.2rem 1.2rem 0rem 1.2rem;
+    padding: 0rem 0.5rem;
 }
 
 .rating-component > #rating > ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin: 2rem 1.2rem;
+    margin: 2rem 2rem;
 }
 
 .rating-component > #rating > ul > li > a{
     text-decoration: none;
     color: black;
     background-color: var(--light-grey);
-    padding: 1rem;
+    padding: 1.3rem;
     border-radius: 50%;
-    margin: 0.2rem;
 }
 
 
@@ -80,7 +82,6 @@ body{
     text-decoration: none;
     background-color: var(--primary-color);
     color: var(--white);
-    padding: 1rem;
     border-radius: 50%;
 }
 
@@ -92,7 +93,7 @@ body{
     text-align: center;
     background-color: var(--primary-color);
     color: var(--white);
-    margin: 1rem;
+    margin: 1rem 1.4rem;
     border-radius: 20px;
     padding: 0.75rem;
 }
