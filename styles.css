@@ -38,7 +38,7 @@ body{
 }
 
 .main-container .rating-component{
-    height: 60vh;
+    height: 55vh;
     margin: 2rem;
     max-width: 400px;
     background-color: var(--dark-blue);
@@ -73,7 +73,7 @@ body{
     text-decoration: none;
     color: black;
     background-color: var(--light-grey);
-    padding: 1.3rem;
+    padding: 1rem 1.28rem;
     border-radius: 50%;
 }
 
@@ -86,7 +86,7 @@ body{
 }
 
 
-.rating-component > .btn{
+.rating-component > #btn{
     display: inline-block;
     text-decoration: none;
     width: 90%;
@@ -99,7 +99,7 @@ body{
 }
 
 
-.rating-component > .btn:hover{
+.rating-component > #btn:hover{
     background-color: var(--white);
     color: var(--primary-color);
     cursor: pointer;
